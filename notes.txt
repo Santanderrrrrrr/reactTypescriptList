@@ -1,0 +1,11 @@
+//IN javascript, one would be able to set different types to the same state.
+    In typescript, it wouldn't be possible
+    Typescript 
+
+//useState pieces of state have an inherent type of never.
+    //never types are a return type that is usually assigned to functions in instances when errors
+      are thrown in said function
+    //In an instance where onee expects to initialize functions based on the useState expected value,
+      if the value is not set upon initialization, it's best to declare the type of the useState piece of state.
+    //This can be done either in line withing angle braces: "<>" or by initially declaring the type and passing it
+      into the angle braces.
